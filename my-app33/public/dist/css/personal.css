@@ -1,0 +1,229 @@
+@charset "UTF-8";
+div.panel-body {
+  overflow-y: hidden;
+  overflow-y: scroll;
+  margin-bottom: 5px;
+}
+
+div.panel-collapse {
+  height: 150px;
+  width: 100%;
+  overflow-y: hidden;
+  overflow-y: scroll;
+}
+
+.item1 {
+  margin-top: 5px;
+  margin-left: 5px;
+  grid-area: myArea;
+  width: 250px;
+  text-align: justify;
+}
+
+.item2 {
+  margin-top: 15px;
+  width: 100px;
+  text-align: justify;
+}
+
+.item1-title-cluster {
+  grid-area: myArea;
+}
+
+.item2-title-cluster {
+  margin-top: 15px;
+  width: 250px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas: 'myArea myArea . . .';
+  grid-gap: 5px;
+}
+
+.grid-container>div {
+  font-size: 14px;
+}
+
+.selectpicker {
+  width: 90%;
+  height: 100px;
+  text-align: justify;
+}
+
+/*# sourceMappingURL=style.css.map */
+
+.dropdown-menu {
+  min-width: 500px;
+}
+
+.kiko {
+  vertical-align: super;
+}
+
+.form-control {
+  height: 80px;
+  overflow-y: hidden;
+  overflow-y: scroll;
+}
+
+.juan {
+  text-align: justify;
+}
+
+.dropdown-menu.columns-2 {
+  min-width: 400px;
+  line-height: 1.428571429;
+}
+
+.dropdown-menu.columns-3 {
+  min-width: 600px;
+  line-height: 1.428571429;
+}
+
+.dropdown-menu li a {
+  padding: 5px 15px;
+  font-weight: 300;
+}
+
+.multi-column-dropdown {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.multi-column-dropdown li a {
+  display: block;
+  clear: both;
+  /* line-height: 1.428571429;
+	color: #333; */
+  white-space: normal;
+}
+
+.multi-column-dropdown li a:hover {
+  text-decoration: none;
+  color: #262626;
+  background-color: #999;
+}
+
+@media (max-width: 967px) {
+  .dropdown-menu.multi-column {
+    min-width: 240px !important;
+    overflow-x: hidden;
+  }
+}
+
+html, body {
+  margin: 0;
+}
+
+#App {
+  font-family: sans-serif;
+}
+
+#page-wrap {
+  text-align: center;
+}
+
+html, body {
+  margin: 0;
+}
+
+#App {
+  font-family: sans-serif;
+  /* Give app full page to work with */
+  height: 100vh;
+}
+
+#page-wrap {
+  text-align: center;
+  /* Prevent sidebar from showing a scrollbar on page */
+  overflow: auto;
+}
+
+/* Individual item */
+
+.bm-item {
+  display: inline-block;
+  /* Our sidebar item styling */
+  text-decoration: none;
+  margin-bottom: 10px;
+  color: #d1d1d1;
+  transition: color 0.2s;
+}
+
+/* Change color on hover */
+
+.bm-item:hover {
+  color: white;
+}
+
+/* The rest copied directly from react-burger-menu docs */
+
+/* Position and sizing of burger button */
+
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  left: 36px;
+  top: 36px;
+}
+
+/* Color/shape of burger icon bars */
+
+.bm-burger-bars {
+  background: #373a47;
+}
+
+/* Position and sizing of clickable cross button */
+
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+/* Color/shape of close button cross */
+
+.bm-cross {
+  background: #bdc3c7;
+}
+
+/* General sidebar styles */
+
+.bm-menu {
+  background: #373a47;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+
+/* Morph shape necessary with bubble or elastic */
+
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+/* Wrapper for item list */
+
+.bm-item-list {
+  color: #b8b7ad;
+}
+
+/* Styling of overlay */
+
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.card-deck {
+  padding: 10px;
+}
+
+.justify-content-end {
+  padding: 30px;
+}
+
+.card_container {
+  padding: 10px;
+  max-width: 250px;
+}
